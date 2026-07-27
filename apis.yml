@@ -1,8 +1,27 @@
 aid: invoice2go
 name: Invoice2go
-description: 'Invoice2go is a company surfaced as a portfolio company of ribbit-capital and added to the
-  API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: 'Invoice2go (part of BILL) is a mobile-first invoicing and small-business
+  management platform for freelancers, contractors, and self-employed professionals.
+  It lets users create and send professional invoices and estimates, accept online
+  payments via bank transfer, credit and debit card, and PayPal, track expenses and
+  billable time, capture customer reviews, and view business reports across web, iOS,
+  and Android. Serving roughly 225,000 small-business users, Invoice2go focuses on
+  getting paid faster and simplifying back-office admin. It was acquired by BILL in
+  2021. There is no live public developer API; third-party integrations are delivered
+  through an Apideck-powered integrations marketplace (QuickBooks, Xero, MYOB, HubSpot,
+  Shopify, Zapier, and more).'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://invoice2go.imgix.net/2021/06/Invoice2go-Logo-@3x.png
 url: https://raw.githubusercontent.com/api-evangelist/invoice2go/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Fintech
+- Invoicing
+- Payments
+- Small Business
+- Accounting
+- Estimates
+- Expense Management
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +49,35 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://invoice.2go.com
+  url: https://invoice2go.com
+- type: Pricing
+  url: https://invoice2go.com/pricing/
+- type: SignUp
+  url: https://invoice2go.com/sign-up/
+- type: Login
+  url: https://account.2go.com
+- type: Support
+  url: https://support.2go.com/hc/en-us
+- type: Blog
+  url: https://invoice2go.com/blog/
+- type: PrivacyPolicy
+  url: https://invoice2go.com/privacy-policy/
+- type: TermsOfService
+  url: https://invoice2go.com/terms-of-service/
+- type: GitHubOrganization
+  url: https://github.com/invoice2go
+- type: Integrations
+  url: https://integrations.invoice2go.com/
+- type: Security
+  url: https://invoice2go.com/security/
+- type: VulnerabilityDisclosure
+  url: security/invoice2go-vulnerability-disclosure.yml
+- type: DomainSecurity
+  url: security/invoice2go-domain-security.yml
+- type: LLMsTxt
+  url: llms/invoice2go-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

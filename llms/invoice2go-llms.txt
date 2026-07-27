@@ -1,0 +1,33 @@
+# Invoice2go
+
+> Invoice2go (part of BILL) is a mobile-first invoicing and small-business management app for freelancers, contractors, and self-employed professionals. It lets users create and send professional invoices and estimates, accept online payments (bank transfer, credit/debit card, PayPal), track expenses and time, and view business reports across web, iOS, and Android. Invoice2go has ~225,000 small-business users. There is no live public developer API; third-party integrations are delivered through the Apideck-powered integrations marketplace.
+
+## Product
+- [Invoice2go](https://invoice2go.com): Invoicing, estimates, payments, and business management for small businesses.
+- [Send invoices](https://invoice2go.com/send-invoices/): Create and send professional invoices.
+- [Accept payments](https://invoice2go.com/accept-payments/): Online card, bank transfer, and PayPal payments.
+- [Estimating software](https://invoice2go.com/estimating-software/): Professional estimates to win work.
+- [Business reports](https://invoice2go.com/business-reports/): Analytics on cash flow and business health.
+- [Mobile app](https://invoice2go.com/mobile-app/): iOS and Android apps.
+- [Pricing](https://invoice2go.com/pricing/): Subscription plans.
+
+## Docs & Support
+- [Help Center](https://support.2go.com/hc/en-us): Support and how-to articles.
+- [Blog](https://invoice2go.com/blog/): Small-business and product content.
+- [Learn](https://invoice2go.com/learn/): Guides and resources.
+- [Security](https://invoice2go.com/security/): Security posture and responsible disclosure (HackerOne).
+
+## Integrations
+- [Integrations marketplace](https://integrations.invoice2go.com/): Connect QuickBooks, Xero, MYOB, HubSpot, Shopify, Zapier, and more (powered by Apideck).
+
+## Account
+- [Sign up](https://invoice2go.com/sign-up/): Create an account.
+- [Login](https://account.2go.com): Sign in.
+
+## Legal
+- [Privacy Policy](https://invoice2go.com/privacy-policy/)
+- [Terms of Service](https://invoice2go.com/terms-of-service/)
+- [Open Source](https://invoice2go.com/open-source/)
+
+## Notes
+- No public REST/GraphQL API, OpenAPI spec, SDKs, MCP server, or webhook catalog is published; the former developer portal (oauth.2go.com / developer.invoice2go.com) no longer resolves following the BILL acquisition.
