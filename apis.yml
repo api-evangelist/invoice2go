@@ -10,6 +10,17 @@ description: 'Invoice2go (part of BILL) is a mobile-first invoicing and small-bu
   2021. There is no live public developer API; third-party integrations are delivered
   through an Apideck-powered integrations marketplace (QuickBooks, Xero, MYOB, HubSpot,
   Shopify, Zapier, and more).'
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
